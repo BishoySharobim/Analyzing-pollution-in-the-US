@@ -3,7 +3,7 @@
 ### Have total emissions from $PM_{2.5}$ decreased in the United States from 1999 to 2008?
 Using the base plotting system, I made a plot in plot1.R showing the total sum $PM_{2.5}$ emissions from all sources for each of the years 1999, 2002, 2005, and 2008. Looking at plot1.png, I conclude that total emissions went down significantly from 1999 to 2002, took a slight drop from 2002 to 2005, and then a significant drop from 2005 to 2008.
 
-### Have total emissions from $PM_{2.5}$ decreased in the Baltimore City, Maryland (fips == "24510") from 1999 to 2008?
+### Have total emissions from $PM_{2.5}$ decreased in the Baltimore City, Maryland from 1999 to 2008?
 The fips number referring to Baltimore City, Maryland is 24510. Using this information and a base plotting system, I made a plot in plot2.R. Looking at plot2.png, I conclude that total emissions in Baltimore City, Maryland went down somewhat from 1999 to 2002, went back up at 2005 - almost back to the same level it was at in 1999. Then from 2005 to 2008, the pollutant level took a massive drop down.
 
 ### Of the four types of sources indicated by the type (point, nonpoint, onroad, nonroad) variable, which of these four sources have seen decreases in emissions from 1999-2008 for Baltimore City? Which have seen increases in emissions from 1999-2008?
