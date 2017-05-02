@@ -1,6 +1,4 @@
-# Analyzin pollution in the US
-
-Analyzing fine particular matter pollution in the US from 1992 to 2008.
+# Analyzing pollution in the US
 
 Fine particulate matter ($PM_{2.5}$) is an ambient air pollutant for which there is strong evidence that it is harmful to human health. In the United States, the Environmental Protection Agency (EPA) is tasked with setting national ambient air quality standards for fine PM and for tracking the emissions of this pollutant into the atmosphere. 
 
