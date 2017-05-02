@@ -1,4 +1,4 @@
-# Analyzing-pollution-in-the-US
+# Analyzin pollution in the US
 
 Analyzing fine particular matter pollution in the US from 1992 to 2008.
 
