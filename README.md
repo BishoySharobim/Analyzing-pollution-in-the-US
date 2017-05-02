@@ -19,4 +19,4 @@ The data for this analysis was taken from https://d396qusza40orc.cloudfront.net/
 * type: The type of source (point, non-point, on-road, or non-road)
 * year: The year of emissions recorded
 
-2. Source Classification Code Table (Source_Classification_Code.rds): This table provides a mapping from the SCC digit strings in the Emissions table to the actual name of the $PM_{2.5}$ source. The sources are categorized in a few different ways from more general to more specific. For example, source �10100101� is known as �Ext Comb /Electric Gen /Anthracite Coal /Pulverized Coal�.
+2. Source Classification Code Table (Source_Classification_Code.rds): This table provides a mapping from the SCC digit strings in the Emissions table to the actual name of the $PM_{2.5}$ source. The sources are categorized in a few different ways from more general to more specific. For example, source 10100101 is known as Ext Comb /Electric Gen /Anthracite Coal /Pulverized Coal.
