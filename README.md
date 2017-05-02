@@ -10,7 +10,7 @@ The purpose of this analysis is to explore the National Emissions Inventory data
 
 The data for this analysis was taken from https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2FNEI_data.zip. This zip file contains two files:
 
-1. $PM_{2.5}$ Emissions Data (summarySCC_PM25.rds): This file contains a data frame with all of the PM2.5 emissions data for 1999, 2002, 2005, and 2008. For each year, the table contains number of tons of $PM_{2.5}$ emitted from a specific type of source for the entire year.
+1. $PM_{2.5}$ Emissions Data (summarySCC_PM25.rds): This file contains a data frame with all of the PM2.5 emissions data for 1999, 2002, 2005, and 2008. For each year, the table contains number of tons of $PM_{2.5}$ emitted from a specific type of source for the entire year. A description of the names of the variables are given below...
 
 * fips: A five-digit number (represented as a string) indicating the U.S. county
 * SCC: The name of the source as indicated by a digit string (see source code classification table)
