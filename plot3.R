@@ -1,27 +1,21 @@
 #Downloading and unzipping files
-  {
+  
   if(!file.exists("Data.zip")){
-    download.file(url= "https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2FNEI_data.zip", destfile = "Data.zip")
-  }
+    download.file(url= "https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2FNEI_data.zip", destfile = "Data.zip")}
   
   if(!file.exists("./Data")) {       
-    unzip(zipfile="Data.zip", exdir=".")
-  }
-}
+    unzip(zipfile="Data.zip", exdir=".")}
+
 
 #Reading in data
-  {
+  
   if(!exists("NEI")){
-    NEI <- readRDS("summarySCC_PM25.rds")
-  }
+    NEI <- readRDS("summarySCC_PM25.rds")}
+
   SCC <- readRDS("Source_Classification_Code.rds")
-  }
   
-  
+    
 #Q3 plot
-  
-  {
-  #Lesson: Splitting into a list or usign table functions doesnt work cos I need the same data frame at the end to use ggplot2.
   
   library(ggplot2)
   library(plyr)
@@ -32,10 +26,7 @@
   sum0 = ddply(Baltimorecitydata, groupColumns, function(x) colSums(x[dataColumns]))
   head(sum0)
   
-  {
-    #Ref: stackoverflow.com/questions/8212699/group-by-multiple-columns-and-sum-other-multiple-columns.
-    }
-  
+   
   par(mar=c(3,3,1,3))
   
   png(filename = "plot3.png", width = 800, height = 480, units = "px")  
@@ -49,7 +40,6 @@
         ylab=expression("Total Emissions, PM"[2.5]),
         geom=c("point", "line"))
 
-  }
-  
+    
   dev.off()
   
